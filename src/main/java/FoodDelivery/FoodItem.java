@@ -39,7 +39,7 @@ public class FoodItem {
         return FoodType;
     }
 
-    public void setFoodType(FoodDelivery.FoodType foodType) {
+    public void setFoodType(FoodType foodType) {
         FoodType = foodType;
     }
 
@@ -47,7 +47,7 @@ public class FoodItem {
         return Taste;
     }
 
-    public void setTaste(FoodDelivery.Taste taste) {
+    public void setTaste(Taste taste) {
         Taste = taste;
     }
 
@@ -69,6 +69,7 @@ public class FoodItem {
                 ", foodCategories=" + foodCategories +
                 '}';
     }
+
 }
 
 
