@@ -13,7 +13,7 @@ enum FoodCategories{
 }
 
 public class FoodItem {
-    private String FoodName;
+    private String FoodName;//unique ID
     private float Price;
     private FoodType FoodType;
     private Taste Taste;
@@ -66,7 +66,7 @@ public class FoodItem {
                 ", Price=" + Price +
                 ", FoodType=" + FoodType +
                 ", Taste=" + Taste +
-                ", foodCategories=" + foodCategories +
+                ", setfoodCategories=" + foodCategories +
                 '}';
     }
 
